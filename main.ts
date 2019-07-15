@@ -22,7 +22,7 @@ namespace CBFBGps {
       uBit.serial.baud((int)vitesse);}
       int n = uBit.serial.rxBufferSize();
      /*if (n > 0) return PSTR(uBit.serial.read(1, MicroBitSerialMode::ASYNC))*/
-	  return "coucou";
+	  return "coulou";
         
     }
 }
