@@ -20,7 +20,7 @@ namespace CBFBGps {
 	  {
         uBit.serial.redirect(txn, rxn);
       uBit.serial.baud((int)vitesse);}
-     // int n = uBit.serial.rxBufferSize();
+     int n = uBit.serial.rxBufferedSize();
      /*if (n > 0) return PSTR(uBit.serial.read(1, MicroBitSerialMode::ASYNC))*/
 	  return "coulou";
         
