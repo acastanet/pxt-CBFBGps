@@ -20,8 +20,8 @@ namespace CBFBGps {
 	  {
         uBit.serial.redirect(txn, rxn);
       uBit.serial.baud((int)vitesse);}
-     /* int n = uBit.serial.getRxBufferSize();
-     if (n > 0) return PSTR(uBit.serial.read(1, MicroBitSerialMode::ASYNC))*/
+      int n = uBit.serial.rxBufferSize();
+     /*if (n > 0) return PSTR(uBit.serial.read(1, MicroBitSerialMode::ASYNC))*/
 	  return "coucou";
         
     }
