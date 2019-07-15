@@ -18,6 +18,7 @@ namespace CBFBGps {
       PinName rxn;
       if (serial.tryResolvePin(tx, txn) && serial.tryResolvePin(rx, rxn))
 	  {
+		  
         uBit.serial.redirect(txn, rxn);
       uBit.serial.baud((int)vitesse);}
     // int n = uBit.serial.rxBufferedSize();
