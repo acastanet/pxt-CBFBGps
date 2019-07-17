@@ -13,7 +13,7 @@ enum sendUSB {
 /**
  * Custom blocks
  */
-//% color="#2c3e50" weight=10 icon="\uf7bf"
+//% color="#2c3e50" weight=10 icon="\f7a2"
 
 namespace CBFBGPS {
 
