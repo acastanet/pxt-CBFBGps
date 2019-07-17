@@ -29,16 +29,16 @@ basic.forever(function () {
 ## API
 
 - initGPS(RX: SerialPin)  
-Initial le port serie avec le pin 16 en entrée et le port USB en sortie avec un débit de 9600 bits par seconde 
+Initialise le port serie avec le pin 16 en entrée et le port USB en sortie avec un débit de 9600 bits par seconde 
  
 
 - readGPS(envoiUSB: sendUSB)  
-envoiUSB prend deux valeurs soir vraie, soir faux
-si la valeur est vraie alors les trame du gps sont redirigées vers l'usb
+envoiUSB prend deux valeurs soit vraie, soit faux
+si la valeur est vraie alors les trames du gps sont redirigées vers l'usb
 sinon la fonction renvoie une chaine de caractère comportant une trame ou une chaine vide si problème de reception  
 
 - recupLatLong(trame: string): number[]
-Recupère la latitude et longitude des trame GPGGA en renvoyant
+Recupère la latitude et longitude des trames GPGGA en renvoyant
 une liste des deux valeurs ou une liste vide sinon  
 
 
