@@ -1,6 +1,6 @@
 {
     "name": "CBFBGPS",
-    "version": "0.0.1",
+    "version": "0.0.9",
     "description": "GPS Grove pour micro:bit",
     "license": "MIT",
     "dependencies": {
@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "CBFBGPS.ts"
+        "main.ts"
     ],
     "public": true
 }
