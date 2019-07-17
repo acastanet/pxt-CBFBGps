@@ -1,8 +1,7 @@
 {
-    "name": "CBFBGPS",
-    "version": "1.0.0",
-    "description": "makecode GPS grove extension for micro:bit",
-    "icon": "icon.png"
+    "name": "GPS Grove",
+    "version": "0.0.1",
+    "description": "GPS Grove pour micro:bit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -10,9 +9,6 @@
     "files": [
         "README.md",
         "CBFBGPS.ts"
-    ],
-    "testFiles": [
-        "test.ts"
     ],
     "public": true
 }
