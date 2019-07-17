@@ -2,7 +2,6 @@
     "name": "CBFBGPS",
     "version": "0.0.9",
     "description": "GPS Grove pour micro:bit",
-    "icon": "icon.png",
     "license": "MIT",
     "dependencies": {
         "core": "*"
