@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "description": "GPS Grove pour micro:bit",
     "license": "MIT",
+    "icon": "./static/icon.png"
     "dependencies": {
         "core": "*"
     },
