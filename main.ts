@@ -5,7 +5,7 @@
 enum sendUSB {
     //% block="Serie"
     True,
-    //% block="Bleutooth"
+    //% block="Bluetooth"
     False
 }
 
